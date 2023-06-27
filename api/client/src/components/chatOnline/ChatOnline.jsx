@@ -1,4 +1,4 @@
-import axiosInstance from "../../config";
+import {axiosInstance} from "../../config";
 import { useEffect, useState } from "react";
 import "./chatOnline.css";
 

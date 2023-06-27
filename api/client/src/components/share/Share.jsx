@@ -8,7 +8,7 @@ import {
 } from "@material-ui/icons";
 import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
-import axiosInstance from "../../config";
+import {axiosInstance} from "../../config";
 
 export default function Share() {
   const { user } = useContext(AuthContext);
